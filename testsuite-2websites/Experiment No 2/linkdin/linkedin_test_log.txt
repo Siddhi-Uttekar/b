@@ -1,0 +1,7 @@
+[2025-02-09T16:25:45.822Z] - 🔹 Starting LinkedIn Login Tests...
+[2025-02-09T16:25:45.833Z] - ✅ TC_001: Verify LinkedIn login page loads correctly
+[2025-02-09T16:25:48.051Z] - Page Title: LinkedIn Login, Sign in | LinkedIn
+[2025-02-09T16:25:48.051Z] - Login Page Loaded: ✅ Pass
+[2025-02-09T16:25:48.358Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-09T16:25:56.177Z] - Invalid Email Error NOT Displayed: ❌ Fail
+[2025-02-09T16:25:56.533Z] - ✅ TC_003: Enter valid email but invalid password

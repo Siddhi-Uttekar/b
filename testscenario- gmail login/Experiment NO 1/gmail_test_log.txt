@@ -1,0 +1,61 @@
+[2025-02-08T07:13:05.237Z] - Testing Gmail Login Page...
+
+[2025-02-08T07:13:05.240Z] - TC_001: Verify Gmail login page loads correctly
+[2025-02-08T07:17:10.952Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-08T07:17:10.955Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-08T07:20:15.251Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-08T07:20:15.254Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-08T08:17:03.470Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-08T08:17:03.477Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-08T08:18:46.074Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-08T08:18:46.080Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-08T08:19:30.380Z] - Page Title: Gmail
+[2025-02-08T08:19:30.386Z] - Login Page Loaded: ✅ Pass
+[2025-02-08T08:19:30.462Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-08T08:19:39.967Z] - Invalid Email Error NOT Displayed: ❌ Fail
+[2025-02-08T08:19:40.034Z] - ✅ TC_003: Enter valid email but invalid password
+[2025-02-08T08:19:42.883Z] - ❌ Test failed due to an error: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+[2025-02-08T08:22:30.646Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-08T08:22:30.658Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-08T08:22:35.918Z] - Page Title: Gmail
+[2025-02-08T08:22:35.918Z] - Login Page Loaded: ✅ Pass
+[2025-02-08T08:22:35.986Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-08T08:22:44.165Z] - Invalid Email Error NOT Displayed: ❌ Fail
+[2025-02-08T08:22:44.224Z] - ✅ TC_003: Enter valid email but invalid password
+[2025-02-08T08:22:52.358Z] - ❌ Test failed due to an error: TimeoutError: Waiting for element to be located By(css selector, *[name="Passwd"])
+Wait timed out after 5036ms
+[2025-02-08T08:35:27.599Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-08T08:35:27.610Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-08T08:35:33.047Z] - Page Title: Gmail
+[2025-02-08T08:35:33.047Z] - Login Page Loaded: ✅ Pass
+[2025-02-08T08:35:33.104Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-08T08:35:41.502Z] - Invalid Email Error NOT Displayed: ❌ Fail
+[2025-02-08T08:35:41.558Z] - ✅ TC_003: Enter valid email but invalid password
+[2025-02-08T08:35:43.924Z] - ❌ Test failed due to an error: NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.53)
+[2025-02-09T16:09:36.747Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-09T16:09:36.750Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-09T16:12:00.710Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-09T16:12:00.714Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-09T16:14:30.526Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-09T16:14:30.540Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-09T16:14:34.739Z] - ❌ Test failed due to an error: SessionNotCreatedError: session not created: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location /usr/bin/chromium is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+[2025-02-09T16:19:03.562Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-09T16:19:03.564Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-09T16:19:10.120Z] - Page Title: Gmail
+[2025-02-09T16:19:10.121Z] - Login Page Loaded: ✅ Pass
+[2025-02-09T16:19:10.331Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-10T05:25:14.521Z] - 🔹 Starting Gmail Login Tests...
+[2025-02-10T05:25:14.529Z] - ✅ TC_001: Verify Gmail login page loads correctly
+[2025-02-10T05:25:33.916Z] - Page Title: Gmail
+[2025-02-10T05:25:33.916Z] - Login Page Loaded: ✅ Pass
+[2025-02-10T05:25:34.254Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-10T05:25:52.569Z] - Invalid Email Error NOT Displayed: ❌ Fail
+[2025-02-10T05:25:52.894Z] - ✅ TC_003: Enter valid email but invalid password
+[2025-02-10T05:26:06.768Z] - ❌ Test failed due to an error: TimeoutError: Waiting for element to be located By(css selector, *[name="Passwd"])
+Wait timed out after 5024ms

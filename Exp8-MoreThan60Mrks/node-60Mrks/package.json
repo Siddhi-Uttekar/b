@@ -1,0 +1,15 @@
+{
+  "name": "students",
+  "version": "1.0.0",
+  "description": " select the number of students who have scored more than 60 marks in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.14.0",
+    "pg": "^8.14.1"
+  }
+}

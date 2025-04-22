@@ -1,0 +1,129 @@
+🐞 Defect Report: OrangeHRM Demo Site
+Project Name: OrangeHRM Open Source Demo
+Reported By: QA Team
+Reported On: April 22, 2025
+Environment:
+
+URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+
+Browser: Chrome 123.0
+
+OS: Windows 11
+
+🧩 Defect Title: "Vacancies" Link Leads to a Broken Page
+Description:
+When navigating to the "Vacancies" section under the "Recruitment" tab, the link leads to a page that does not display the expected content.
+
+Steps to Reproduce:
+
+Log in to the OrangeHRM demo site using valid credentials.
+
+Click on the "Recruitment" tab in the top navigation bar.
+
+Select the "Vacancies" link from the dropdown menu.
+
+Expected Result:
+The "Vacancies" page should load and display the list of current job vacancies.
+
+Actual Result:
+The page either does not load or displays an error message, indicating a broken link or missing content.
+
+Severity: Medium
+Priority: High
+
+Reference: 
+Portnov Forums
+
+🧩 Defect Title: "Hiring Manager" Field Accepts Blank Input
+Description:
+In the "Vacancies" section, the "Hiring Manager" field, which is marked as required, allows submission even when left blank.
+
+Steps to Reproduce:
+
+Navigate to the "Vacancies" section under the "Recruitment" tab.
+
+Click on an existing vacancy to edit.
+
+Clear the "Hiring Manager" field.
+
+Click the "Save" button.
+
+Expected Result:
+The system should prevent saving and prompt the user to fill in the required "Hiring Manager" field.
+
+Actual Result:
+An error message "Failed to Save" appears, but the vacancy is saved with an empty "Hiring Manager" field.
+
+Severity: Medium
+Priority: Medium
+
+Reference: 
+Portnov Forums
+
+🧩 Defect Title: "Job" Section in "My Info" is Non-Editable
+Description:
+Users are unable to edit the "Job" section under the "My Info" tab, as there is no "Edit" button available.
+
+Steps to Reproduce:
+
+Click on the "My Info" tab in the top navigation bar.
+
+Scroll down to the "Job" section.
+
+Expected Result:
+An "Edit" button should be present, allowing users to update their job information.
+
+Actual Result:
+No "Edit" button is available, making the "Job" section non-editable.
+
+Severity: Low
+Priority: Low
+
+Reference: 
+Portnov Forums
+
+🧩 Defect Title: Site Displays in Vietnamese When Accessed via Google Search
+Description:
+When accessing the OrangeHRM demo site through a Google search, the site initially displays in Vietnamese before refreshing to English.
+
+Steps to Reproduce:
+
+Search for "OrangeHRM demo" on Google.
+
+Click on the link to the demo site from the search results.
+
+Expected Result:
+The site should load in English by default.
+
+Actual Result:
+The site briefly displays in Vietnamese before switching to English.
+
+Severity: Low
+Priority: Low
+
+Reference: 
+Scribd
+
+🧩 Defect Title: Invalid File Type Message Appears After Uploading Non-Photo File
+Description:
+Uploading a non-photo file (e.g., .exe) in the "Personal Details" section results in an error message appearing after the upload attempt.
+
+Steps to Reproduce:
+
+Navigate to the "My Info" tab.
+
+Click on the "Personal Details" section.
+
+Attempt to upload a .exe file as a profile picture.
+
+Expected Result:
+The system should prevent the upload and display an error message before attempting to upload the invalid file type.
+
+Actual Result:
+The system attempts the upload and only displays an error message after the attempt fails.
+
+Severity: Medium
+Priority: Medium
+
+Reference: 
+Scribd

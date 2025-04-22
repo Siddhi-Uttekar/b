@@ -1,0 +1,12 @@
+[2025-02-09T16:29:21.906Z] - 🔹 Starting LinkedIn Login Tests...
+[2025-02-09T16:29:22.063Z] - 🔹 Starting Amazon Login Tests...
+[2025-02-09T16:29:24.153Z] - ✅ TC_001: Verify Amazon login page loads correctly
+[2025-02-09T16:29:24.160Z] - Page Title: Amazon.com
+[2025-02-09T16:29:24.161Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-09T16:29:24.173Z] - ❌ Test failed due to an error: NoSuchElementError: no such element: Unable to locate element: {"method":"css selector","selector":"*[id="ap_email"]"}
+  (Session info: chrome=133.0.6943.53)
+[2025-02-09T16:29:25.377Z] - ✅ TC_001: Verify LinkedIn login page loads correctly
+[2025-02-09T16:29:25.419Z] - Page Title: LinkedIn Login, Sign in | LinkedIn
+[2025-02-09T16:29:25.430Z] - ✅ TC_002: Enter invalid email and check error message
+[2025-02-09T16:29:30.811Z] - ❌ Test failed due to an error: TimeoutError: Waiting for element to be located By(xpath, //div[contains(text(),'wrong password')])
+Wait timed out after 5199ms
