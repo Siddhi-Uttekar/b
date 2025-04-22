@@ -1,0 +1,23 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Main {
+   public static void main(String[] args) {
+       // 1. Set path to chromedriver.exe
+       System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-4.31.0\\chromedriver.exe");
+
+
+       // 2. Initialize ChromeDriver
+       WebDriver driver = new ChromeDriver();
+
+
+       // 3. Open Google and print title
+       driver.get("https://www.google.com");
+       System.out.println("Page title: " + driver.getTitle());
+
+
+       // 4. Close the browser
+       driver.quit();
+   }
+}
