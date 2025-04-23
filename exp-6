@@ -1,0 +1,28 @@
+Test Suite: E-commerce Website Automation
+Test Case 1: Verify Home Page Load
+1.	Objective: Ensure that the home page loads successfully.
+2.	Steps:
+1.	Open https://www.demowebsite.com
+2.	Verify title contains "Home - Demo Website"
+Test Case 2: Search for a Product
+1.	Objective: Validate that the search function works correctly.
+2.	Steps:
+1.	Open https://www.demowebsite.com
+2.	Click on the search bar.
+3.	Type Laptop and press Enter.
+4.	Verify that the search results contain the word Laptop.
+Test Case 3: Add Item to Cart
+1.	Objective: Confirm adding a product to the cart.
+2.	Steps:
+1.	Open https://www.demowebsite.com
+2.	Search for Smartphone.
+3.	Click on a product from the list.
+4.	Click Add to Cart button.
+5.	Verify that the item was added successfully to the cart.
+Test Case 4: Verify Checkout Page
+1.	Objective: Ensure the checkout process page is accessible.
+2.	Steps:
+3.	Open https://www.demowebsite.com
+4.	Click on the Cart icon.
+5.	Click Proceed to Checkout.
+
